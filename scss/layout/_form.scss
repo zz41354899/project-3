@@ -1,0 +1,58 @@
+.form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	color: #fff;
+	background: linear-gradient(#00654a, #00996f);
+	p {
+		text-align: center;
+		font-size: 1.25rem;
+		padding: 20px;
+		line-height: 1.5;
+	}
+	.col {
+		resize: none;
+		border: none;
+		height: 250px;
+		width: 460px;
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+	.personal-info {
+		display: flex;
+	}
+
+	.personal-info label,
+	.personal-info input:nth-child(even) {
+		border-radius: 5px;
+		outline: none;
+		border: none;
+		display: block;
+		width: 450px;
+		height: 30px;
+		font-size: 16px;
+		line-height: 2.5;
+		margin-top: 5px;
+	}
+	.user-btn {
+		align-items: center;
+		justify-content: flex-end;
+		display: flex;
+	}
+	.btn {
+		width: 75px;
+		height: 30px;
+		line-height: 30px;
+		background: #00cc98;
+		color: #fff;
+		border: none;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+	.btn:hover {
+		background: #fff;
+		color: #00cc98;
+	}
+}
