@@ -211,7 +211,7 @@ a {
           align-items: center;
 }
 
-.header .logo a {
+.header .logo {
   background: url("/img/logo.png") no-repeat;
   display: block;
   width: 224px;
